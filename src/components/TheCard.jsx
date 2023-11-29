@@ -1,10 +1,11 @@
 import style from "../css/modules/TheCard.module.css";
+import cardIMG from "../assets/iceland.jpg"
 
 function TheCard() {
   return (
     <>
       <div className="h-[550px] max-w-sm rounded overflow-hidden shadow-lg ">
-      <img className="w-full" src="src/assets/iceland-canyon-Fjadrargljufur-Canyon-1.jpg" alt="Iceland"/>        
+      <img className="w-full" src={cardIMG} alt="Iceland"/>        
       <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">Titolo del Post</div>
           <p className="text-gray-700 text-base">
