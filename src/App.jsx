@@ -13,7 +13,9 @@ function App() {
   return (
     <>
     <TheHeader/>
+    <main className="main_content flex justify-center">
     <TheCard/>
+    </main>
     <TheFooter/>
     </>
   )
