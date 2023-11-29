@@ -2,11 +2,11 @@ import style from "../css/modules/TheCard.module.css";
 
 function TheCard() {
   return (
-    <>
-      <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      
-        <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <main className="flex justify-center">
+      <div className="max-w-sm rounded overflow-hidden shadow-lg ">
+      <img className="w-full" src="src/assets/iceland-canyon-Fjadrargljufur-Canyon-1.jpg" alt="Iceland"/>        
+      <div className="px-6 py-4">
+          <div className="font-bold text-xl mb-2">Titolo del Post</div>
           <p className="text-gray-700 text-base">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Voluptatibus quia, nulla! Maiores et perferendis eaque,
@@ -25,7 +25,7 @@ function TheCard() {
           </span>
         </div>
       </div>
-    </>
+    </main>
   );
 }
 
