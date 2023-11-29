@@ -5,6 +5,7 @@ import './App.css'
 import "./components/TheHeader"
 import TheHeader from './components/TheHeader'
 import TheFooter from './components/TheFooter'
+import TheCard from './components/TheCard'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +13,8 @@ function App() {
   return (
     <>
     <TheHeader/>
-      
-      <TheFooter/>
+    <TheCard/>
+    <TheFooter/>
     </>
   )
 }
