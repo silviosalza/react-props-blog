@@ -2,13 +2,6 @@ import style from "../css/modules/TheCard.module.css";
 import cardIMG from "../assets/iceland.jpg";
 import TheButton from "./TheButton";
 
-const colorMap = {
-  html: "bg-red-300",
-  css: "bg-blue-300",
-  js: "bg-yellow-300",
-  php: "bg-purple-300",
-};
-
 function TheCard({ title, content, tags, image, published }) {
   const colorMap = {
     html: "bg-red-300",
