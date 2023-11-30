@@ -26,7 +26,7 @@ function TheCard() {
             #winter
           </span>
         </div>
-        <TheButton/>
+        <TheButton testo="Scopri di più"/>
       </div>
     </>
   );

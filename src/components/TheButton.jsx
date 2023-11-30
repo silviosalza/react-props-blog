@@ -1,7 +1,7 @@
-function TheButton() {
+function TheButton({testo}) {
   return (
     <button class="bg-green-700 hover:bg-black text-white font-bold py-2 px-4 rounded">
-      Scopri di più
+      {testo}
     </button>
   );
 }
