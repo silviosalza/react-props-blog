@@ -6,7 +6,7 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .main_content{
-  height: calc(100vh - 300px);
-  padding-top: 3rem;
+  height: calc(100vh - 200px);
+  padding: 3rem 0;
 
 }
